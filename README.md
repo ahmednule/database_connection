@@ -28,14 +28,14 @@ Follow these steps to set up the project locally:
     ```
 4. **Set up the MySQL database**:
     - Create a MySQL database.
-    - Update the `config.json` file with your database credentials.
+    - Update the `.env` file with your database credentials.
 
 ## Usage
 
 To start the project, run the following command:
 
 ```bash
-npm start
+nodemon/ node app_name
 API Endpoints
 Get all records: GET /api/records
 Get a single record: GET /api/records/:id
@@ -61,10 +61,8 @@ Create a new branch: git checkout -b my-feature
 Make your changes and commit them: git commit -m 'Add new feature'
 Push to the branch: git push origin my-feature
 Submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-Ahmed Nule - ahmednule@example.com
+Ahmed Nule - nuleahmed6@gmail.com
 
 Project Link: https://github.com/ahmednule/database_connection
